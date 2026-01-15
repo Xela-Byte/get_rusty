@@ -13,7 +13,7 @@ pub mod test_closures {
             first_name: String::from("Xela"),
             last_name: String::from("Ola"),
         };
-
+        //
         let mut change_name = |new_last_name: &str| person.last_name = String::from(new_last_name);
         change_name("Xeloao");
 
