@@ -5,7 +5,10 @@
 // pub mod lesson_005_closures;
 // pub mod lesson_006_match_expression;
 // pub mod lesson_007_option_enum;
+// pub mod lesson008_structs;
+// pub mod lesson_009_methods_structs;
+// pub mod lesson_010_generics_traits;
+// pub mod lesson_011_vectors;
+pub mod lesson_012_hashmaps_hashset;
 
-fn main() {
-    println!("Hello, Xela!");
-}
+fn main() {}

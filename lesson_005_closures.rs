@@ -7,6 +7,7 @@ pub mod test_closures {
 
     pub fn closure_function() {
         let add = |x: u32, y| println!("this is a closure, {}", x + y);
+        let subtract = |x: u16, y: u16| return y - x;
         add(5, 4);
 
         let mut person = Person {
